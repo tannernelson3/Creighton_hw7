@@ -19,14 +19,17 @@ void MaxMin(int numvals, int vals[], int* min, int* max);
 /* Main Program */
 int main(int argc, char *argv[])
 {
+	int max, min;
 
-	printf("Generating random list\n")
+	printf("Generating random list\n");
 		
-	printf("This list is: %d %d %d %d %d %d %d %d %d %d");
-	
-	printf("The maximum value is: %d\n");
+	printf("This list is: \n");
 
-	printf("The minimum value is: %d\n");
+	MaxMin
+	
+	printf("The maximum value is: %d\n", max);
+
+	printf("The minimum value is: %d\n", min);
 	return 0;
 }
 
@@ -34,8 +37,8 @@ int main(int argc, char *argv[])
 /* Function Defenitions */
 void MaxMin(int numvals, int vals[], int* min, int* max)
 {
-	rand()
-	srand()
+	rand();
+	srand();
 }
 
 
